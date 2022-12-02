@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="10.919827">
+<testcase classname="Myntra project" name="go To The Myntra Homepage" time="10.919827">
+<skipped><![CDATA[Given launch The Url........................................................passed
+When move To Men And Tshirt Tab.............................................passed
+And get No Of Products......................................................passed
+And move To Kids And Tshirt Tab.............................................undefined
+And get The Minimum Price Of The Products...................................skipped
+Then Print the Brand Of Minimum Product Price...............................skipped
+]]></skipped>
+</testcase>
+</testsuite>

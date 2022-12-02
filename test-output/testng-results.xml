@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22837" started-at="2022-11-24T19:41:31 IST" finished-at="2022-11-24T19:41:54 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22837" started-at="2022-11-24T19:41:31 IST" finished-at="2022-11-24T19:41:54 IST">
+      <class name="com.testng.Myntra">
+        <test-method status="PASS" signature="launchTheUrl()[pri:0, instance:com.testng.Myntra@9a7504c]" name="launchTheUrl" duration-ms="7388" started-at="2022-11-24T19:41:31 IST" finished-at="2022-11-24T19:41:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheUrl -->
+        <test-method status="PASS" signature="menAndTshirt()[pri:0, instance:com.testng.Myntra@9a7504c]" name="menAndTshirt" duration-ms="6736" started-at="2022-11-24T19:41:38 IST" depends-on-methods="com.testng.Myntra.launchTheUrl" finished-at="2022-11-24T19:41:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menAndTshirt -->
+        <test-method status="PASS" signature="getNoOfProducts()[pri:0, instance:com.testng.Myntra@9a7504c]" name="getNoOfProducts" duration-ms="89" started-at="2022-11-24T19:41:45 IST" depends-on-methods="com.testng.Myntra.menAndTshirt" finished-at="2022-11-24T19:41:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNoOfProducts -->
+        <test-method status="PASS" signature="kidsAndTshirt()[pri:0, instance:com.testng.Myntra@9a7504c]" name="kidsAndTshirt" duration-ms="6578" started-at="2022-11-24T19:41:45 IST" depends-on-methods="com.testng.Myntra.getNoOfProducts" finished-at="2022-11-24T19:41:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kidsAndTshirt -->
+        <test-method status="PASS" signature="minimumPriceOfTheProduct()[pri:0, instance:com.testng.Myntra@9a7504c]" name="minimumPriceOfTheProduct" duration-ms="1959" started-at="2022-11-24T19:41:52 IST" depends-on-methods="com.testng.Myntra.kidsAndTshirt" finished-at="2022-11-24T19:41:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimumPriceOfTheProduct -->
+        <test-method status="PASS" signature="brandNameOfProduct()[pri:0, instance:com.testng.Myntra@9a7504c]" name="brandNameOfProduct" duration-ms="41" started-at="2022-11-24T19:41:54 IST" depends-on-methods="com.testng.Myntra.minimumPriceOfTheProduct" finished-at="2022-11-24T19:41:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brandNameOfProduct -->
+      </class> <!-- com.testng.Myntra -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

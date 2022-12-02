@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "go To The Myntra Homepage",
+        "description": "",
+        "id": "myntra-project;go-to-the-myntra-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4209699400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "launch The Url",
+            "match": {
+              "location": "Stepdefinition.launch_The_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6628024800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "move To Men And Tshirt Tab",
+            "match": {
+              "location": "Stepdefinition.move_To_Men_And_Tshirt_Tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82102700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "get No Of Products",
+            "match": {
+              "location": "Stepdefinition.get_No_Of_Products()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "move To Kids And Tshirt Tab",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "get The Minimum Price Of The Products",
+            "match": {
+              "location": "Stepdefinition.get_The_Minimum_Price_Of_The_Products()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Print the Brand Of Minimum Product Price",
+            "match": {
+              "location": "Stepdefinition.print_the_Brand_Of_Minimum_Product_Price()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Myntra project",
+    "description": "",
+    "id": "myntra-project",
+    "keyword": "Feature",
+    "uri": "myntra.feature"
+  }
+]
